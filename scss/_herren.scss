@@ -1,53 +1,146 @@
-.herren {
-display: grid;
-grid-template-columns: repeat(1fr);
-  grid-template-rows: auto 1fr;
-}
-.section-title {
-    background-image: url(../css/imags/kleid.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 60vh;
-}
-.section-title__h1{
-    padding-top: 10vh;
-    color: darkorange;
-    font-weight: 900;
+.herren{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
 }
 .herren-text {
-    background-color: lightgrey;
-    padding: 20px 0px;
+    padding: 2rem 0;
 }
 .herren-gruppe {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
- 
-}
-.herren-tshirt ,.herren-schuhe {
-    background-color: #eee;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:2rem ;
 }
 .herren__img {
-    border-radius: 5PX;
-    width: 100%;
-    height: 200px;
-    
+     border-radius: 5PX;
+     width: 100%;
+     height: 16rem;
 }
 .herren-a {
     text-decoration: none;
     color: coral;
-    font-size: 15px;
 }
-.paragraph-herren {
-    font-size: 12px;
+.herren-a:hover {
+  
 }
-.herren-gruppe__sup{
+.herren-gruppe__sup {
     color: red;
 }
-.herren-schuhe a{
+.herren-gruppe__b{
     color: black;
 }
+.herren-text__h2:hover ,.herren-a:hover {
+    color: rgb(135, 222, 186);  
+}
+@media  (min-width:356px) and (max-width:700px)
+ {
+.herren-gruppe {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }  
+ }
+ @media  (max-width:355px) {
+    .herren{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .herren-gruppe {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    } 
+    .herren-text {
+        width: 100%;
+        padding: 10px;
+    }
+    .herren-text__h2{
+        font-size: 1rem;
+    }
+    .paragraph-herren{
+        font-size: 13px;
+        color: gray;
+    }
+    }
+// .herren {
+//     display: grid;
+//     grid-template-columns: repeat(1fr);
+//     grid-template-rows: auto 1fr;
+// }
+// .section-title {
+//     background-image: url(../css/imags/kleid.jpg);
+//     background-position: center;
+//     background-size: cover;
+//     width: 100%;
+//     height: 60vh;
+// }
+// .section-title__h1{
+//     padding-top: 10vh;
+//     color: darkorange;
+//     font-weight: 900;
+// }
+// .herren {
+//     background-color: rgb(214, 236, 243);
+
+// }
+// .herren-text {
+//     padding: 20px 0px;
+// }
+// .herren-gruppe {
+//     display: flex;
+//     gap: 10px;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     margin-bottom: 50px;
+ 
+// }
+// .herren-tshirt{
+//     position: relative;
+//     background-color: white;
+// }
+//  .herren-tshirt::before{
+//      content: "\f004";
+//     font-family: "Font Awesome 5 Free";
+//     display: inline-block;
+//     position: absolute;
+//     right: 10px;
+//     top: 10px;
+//     font-size: 17px;
+//     font-weight: 900;
+//     color:rgba(128, 128, 128, 0.603);
+//     cursor: pointer;
+// }
+// .herren__img {
+//     border-radius: 5PX;
+//     width: 100%;
+//     height: 200px;
+    
+// }
+// .herren-a {
+//     text-decoration: none;
+//     color: coral;
+//     font-size: 15px;
+// }
+// .paragraph-herren {
+//     font-size: 12px;
+// }
+// .herren-gruppe__sup{
+//     color: red;
+// }
+
+// .damen-tshirt{
+// background-color: white;
+// }
+// .damen{
+//     background-color:rgba(255, 192, 203, 0.322) ;
+//     display: grid;
+// grid-template-columns: repeat(1fr);
+//   grid-template-rows: auto 1fr;
+// }
 

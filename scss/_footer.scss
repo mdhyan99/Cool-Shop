@@ -1,0 +1,17 @@
+footer {
+    width: 100%; 
+    box-shadow: 0 0  20px rgba(25, 109, 235, 0.527);
+    background-color:rgba(211, 211, 211, 0.89);
+    text-align: center;
+}
+.footer-liste__a {
+    text-decoration: none;
+    color: black;
+}
+.footer-icons__a {
+    color: rgba(0, 0, 0, 0.681);
+    padding: 0 10px;
+}
+.footer-icons__a:hover ,.footer-liste__a:hover {
+color: white;
+}

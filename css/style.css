@@ -2,162 +2,249 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Crimson Pro", serif;
 }
 
 body {
   width: 100%;
-  height: 200vh;
+  height: 100%;
   text-align: center;
-  font-family: sans-serif;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(184, 184, 184, 0.904);
-  padding: 0 20px;
-}
-
-.header-logo__img {
-  width: 70px;
-  border-radius: 30%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.342);
+  padding: 10px 0;
+  box-shadow: 0px 0px 20px rgba(172, 131, 97, 0.637);
 }
 
 .header-nav__list {
+  color: rgba(0, 0, 0, 0.856);
   text-decoration: none;
-  padding: 0 10px;
+  font-size: 2rem;
+  padding: 30px;
 }
 
-.header-icons__input {
-  width: 120px;
+.header-nav__list:hover {
+  color: white;
+}
+
+.carousel-caption__h5 {
+  font-size: 3rem;
+  color: rgba(135, 101, 230, 0.993);
+  letter-spacing: -2px;
+}
+
+.carousel-caption__p {
+  font-size: 1.7rem;
+  color: rgba(255, 0, 0, 0.747);
 }
 
 @media (max-width: 355px) {
-  header {
-    display: grid;
-    row-gap: 10px;
-    padding: 0;
+  .header-nav__list {
+    font-size: 14px;
   }
+}
+@media (min-width: 356px) and (max-width: 700px) {
+  .header-nav__list {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+  }
+}
+section img {
+  width: 80%;
+  max-height: 700px;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 355px) {
+  .section-title {
+    color: rgba(241, 67, 23, 0.897);
+    font-weight: 900;
+    position: absolute;
+    top: 14rem;
+    left: 1.5rem;
+  }
+  section img {
+    max-height: 90px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 356px) and (max-width: 700px) {
+  section img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 355px) {
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  .herren p {
-    font-size: 10px;
+  .section-title {
+    color: rgba(241, 67, 23, 0.897);
+    font-weight: 900;
+    position: absolute;
+    top: 14rem;
+    left: 1.5rem;
   }
-  .header-nav__list {
-    font-size: 10px;
-  }
-  .header-icons__input {
-    width: 70px;
-  }
-  .material-icons {
-    font-size: 19px;
-  }
-  .header-logo__h2 {
-    font-size: 10px;
-  }
-  .header-logo {
-    max-width: 100px;
-    text-align: center;
-  }
-  .header-nav__liste {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 10px;
-  }
-  .herren-gruppe {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .section-title__h1 {
-    font-size: 10px;
-    padding-top: 15%;
-  }
-  .herren-tshirt, .herren-schuhe {
-    padding: 0;
+  section img {
+    max-height: 90px;
+    object-fit: cover;
   }
 }
 @media (min-width: 356px) and (max-width: 700px) {
-  .header-logo__h2 {
-    font-size: 10px;
-    border-radius: 10px;
-    background-color: gold;
-  }
-  .header-nav__list {
-    font-size: 11px;
-    padding: 0;
-  }
-  .herren-gruppe {
-    display: flex;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+  section img {
+    max-height: 300px;
+    object-fit: cover;
   }
 }
 .herren {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: auto 1fr;
-}
-
-.section-title {
-  background-image: url(../css/imags/kleid.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 60vh;
-}
-
-.section-title__h1 {
-  padding-top: 10vh;
-  color: darkorange;
-  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
 }
 
 .herren-text {
-  background-color: lightgrey;
-  padding: 20px 0px;
+  padding: 2rem 0;
 }
 
 .herren-gruppe {
-  display: flex;
-  gap: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-}
-
-.herren-tshirt, .herren-schuhe {
-  background-color: #eee;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
 }
 
 .herren__img {
   border-radius: 5PX;
   width: 100%;
-  height: 200px;
+  height: 16rem;
 }
 
 .herren-a {
   text-decoration: none;
   color: coral;
-  font-size: 15px;
-}
-
-.paragraph-herren {
-  font-size: 12px;
 }
 
 .herren-gruppe__sup {
   color: red;
 }
 
-.herren-schuhe a {
+.herren-gruppe__b {
   color: black;
+}
+
+.herren-text__h2:hover, .herren-a:hover {
+  color: rgb(135, 222, 186);
+}
+
+@media (min-width: 356px) and (max-width: 700px) {
+  .herren-gruppe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 355px) {
+  .herren {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+  .herren-gruppe {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  .herren-text {
+    width: 100%;
+    padding: 10px;
+  }
+  .herren-text__h2 {
+    font-size: 1rem;
+  }
+  .paragraph-herren {
+    font-size: 13px;
+    color: gray;
+  }
+}
+footer {
+  width: 100%;
+  box-shadow: 0 0 20px rgba(25, 109, 235, 0.527);
+  background-color: rgba(211, 211, 211, 0.89);
+  text-align: center;
+}
+
+.footer-liste__a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icons__a {
+  color: rgba(0, 0, 0, 0.681);
+  padding: 0 10px;
+}
+
+.footer-icons__a:hover, .footer-liste__a:hover {
+  color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: rgba(0, 0, 0, 0.897);
+  z-index: 5;
+}
+
+.nav-h1 {
+  color: coral;
+  font-weight: 900;
+  letter-spacing: -4px;
+  word-spacing: 4px;
+  text-shadow: 1px 1px 2px rgba(255, 200, 0, 0.801);
+}
+
+.link {
+  padding: 0 0.9rem;
+  color: gray;
+}
+
+.link:hover {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 355px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .rigth-icons .link {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+}
+@media (min-width: 356px) and (max-width: 700px) {
+  .nav-h1 {
+    font-size: 1rem;
+    color: rgba(255, 127, 80, 0.596);
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .link {
+    padding: 5px;
+    font-size: 0.6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
