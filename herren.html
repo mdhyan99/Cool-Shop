@@ -15,7 +15,7 @@
         <title>Rayan shop</title>
     </head>
     <style>
-        .herren{
+.herren{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -51,6 +51,23 @@
 }
 .herren-text__h2:hover ,.herren-a:hover {
     color: rgb(135, 222, 186);  
+}
+.herren-a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.513);
+}<img class="herren__img herren-tshirt__img" 
+                        src="./css/imags/Hemd.jpg"
+                        alt="Bild von einem Hemd"
+                    />
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Hemd</h2></a>
+                <p class="paragraph-herren herren-tshirt__p" >
+                    <sub class="herren-gruppe__sup">19,99€</sub>
+.herren-text__h2 {
+    color: coral;
+}
+footer{
+    width: 100%;
+    bottom: 0;
 }
 @media  (min-width:356px) and (max-width:700px)
  {
@@ -125,85 +142,98 @@
                 <div class="herren-text">
                     <a class="herren-a herren-text__a" href="#"> <h2 class="headline herren-text__h2">Herren Produkte</h2></a>
                     <p class="paragraph-herren herren-text__p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Iste, dolor. Lorem ipsum dolor sit amet
+                        Unser Herren-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
                        
                     </p>
                 </div>
             <div class="herren-gruppe">
-                <div class="herren-tshirt icon" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/t-shirt.jpg"
-                        alt="Bild von einem T-Shirt"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >T-Shirt</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        <i>Höchste Druck- und Materialqualität</i> <br>
-                        <u>Preis</u> <br>
-                        <b class="herren-gruppe__b">nur: <sub class="herren-gruppe__sup">13,99€</sub></b>
-                    </p>
-                </div>
-                <div class="herren-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/schuh.jpeg"
+                  <!-- T-shirt -->
+                    <div class="herren-tshirt icon" id="herren-tshirt">
+                        <a href="./herren-tshirt.html" >
+                        <img class="herren__img herren-tshirt__img" 
+                            src="./css/imags/t-shirt.jpg"
+                            alt="Bild von einem T-Shirt"
+                        />
+                        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Männer T-Shirt</h2></a>
+                        <p class="paragraph-herren herren-tshirt__p" >
+                            <sub class="herren-gruppe__sup">13,99€</sub>
+                        </p>
+                     </a>
+                    </div>
+                         <!-- Hemd -->
+                <div class="herren-tshirt" id="herre " >
+                    <a href="./hemd.html">
+                        <img class="herren__img herren-tshirt__img" 
+                        src="./css/imags/Hemd.jpg"
                         alt="Bild von einem Hemd"
                     />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Hemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Hemd Es ist so schön
-                    </p>
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Hemd</h2></a>
+                <p class="paragraph-herren herren-tshirt__p" >
+                    <sub class="herren-gruppe__sup">19,99€</sub>
+                    </a>
                 </div>
-                <div class="herren-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/schuh.jpeg"
-                        alt="Bild von einem Hemd"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Hemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Hemd Es ist so schön
-                    </p>
-                </div>
+                 <!-- Unter-hemd -->
                 <div class="herren-tshirt" id="herren-tshirt">
                     <img class="herren__img herren-tshirt__img" 
                         src="./css/imags/unterhemd.jpg" 
                         alt="Bild von einem Unterhemd"
                     />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geile Unterhemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Unterhemd Es ist so schön
-                    </p>
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hemd</h2></a>
+                <p class="paragraph-herren herren-tshirt__p" >
+                    <sub class="herren-gruppe__sup">8,99€</sub>
                 </div>
+                <!-- Hose -->
                 <div class="herren-tshirt herren-schuhe" id="herren-schuh">
+                   <a href="./hose.html">
                     <img class="herren__img herren-schuhe__img"
-                        src="./css/imags/Hose.jpeg"
-                        alt="Bild von einem Hose"
-                    />
-                    <a class="herren-a herren-tshirt__a" href="#"><h2 class="headline herren-schuhe__h2  " >Toller Hose</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Stiefel.Es ist so schön
-                    </p>
+                    src="./css/imags/Hose.jpeg"
+                    alt="Bild von einem Hose"
+                />
+                <a class="herren-a herren-tshirt__a" href="#"><h2 class="headline herren-schuhe__h2  " > Hose</h2></a>
+            <p class="paragraph-herren herren-tshirt__p" >
+                <sub class="herren-gruppe__sup">28,99€</sub>
+                   </a>
                 </div>
-                <div class="herren-tshirt" id="herre " >
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/Hemd.jpg"
-                        alt="Bild von einem Hemd"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Hemd</h2></a>
+                <!-- Unter-hose -->
+                     <div class="herren-tshirt" id="herre " >
+                        <img class="herren__img herren-tshirt__img" 
+                            src="./css/imags/unterhose.jpg"
+                            alt="Bild von einem Hemd"
+                        />
+                        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hose</h2></a>
                     <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Hemd Es ist so schön
-                    </p>
-                </div>
+                        <sub class="herren-gruppe__sup">6,99€</sub>
+                    </div>
+                    <!-- Jake -->
+                    <div class="herren-tshirt" id="herren-tshirt">
+                        <img class="herren__img herren-tshirt__img" 
+                            src="./css/imags/jake.jpg"
+                            alt="Bild von hemd"
+                        />
+                        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Jake</h2></a>
+                    <p class="paragraph-herren herren-tshirt__p" >
+                        <sub class="herren-gruppe__sup">36,99€</sub>
+                    </div>
+                <!-- schuh -->
                 <div class="herren-tshirt" id="herren-tshirt">
                     <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/Hemd.jpg"
+                        src="./css/imags/schuh.jpeg"
                         alt="Bild von hemd"
                     />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Hemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Hemd Es ist so schön
-                    </p>
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Schuh</h2></a>
+                <p class="paragraph-herren herren-tshirt__p" >
+                    <sub class="herren-gruppe__sup">22,99€</sub>
                 </div>
-               
+                <!-- Stiefel -->
+                <div class="herren-tshirt" id="herren-tshirt">
+                    <img class="herren__img herren-tshirt__img" 
+                        src="./css/imags/Stiefel.jpg"
+                        alt="Bild von hemd"
+                    />
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Stiefel</h2></a>
+                <p class="paragraph-herren herren-tshirt__p" >
+                    <sub class="herren-gruppe__sup">27,99€</sub>
+                </div>
             </div>
         </div>
               <!-- End Herren   -->      
@@ -218,8 +248,9 @@
                     <a class="footer-liste__a" href="#">Kontakt</a> <br>
                     <a class="footer-liste__a" href="#"> Namestr. 2,66666 Musterstand </a>
                 </div>
+            
              </footer>
              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+ 
     </body>
 </html>

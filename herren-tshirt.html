@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/20a4bdb3fb.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+        <title>Rayan shop</title>
+        <style>
+            body{
+                width: 100%;
+                height: 100%;
+
+            }
+            .herren {
+                width: 100;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-template-rows: 1fr;
+                gap: 1rem;
+            }
+            .herren-gruppe {
+                display: flex;
+                flex-direction: column;
+            }
+            .herren-wahl__p i {
+                color: rgb(43, 101, 226);
+                font-weight: bold;
+            }
+            .herren-wahl__p {
+                font-weight: bolder;
+
+            }
+            .herren-gross{
+                padding: 2rem 0;
+            }
+          
+            .herren-gross__button {
+                background-color: white;
+                border-radius: 2rem;
+                padding: 0.3rem;
+                width: 6rem;
+                border: 1px solid gray;
+            }
+            .button {
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                padding-bottom: 2rem;            
+           }
+            .herren-gross__button:hover{
+            border: 2px solid black;
+            }
+            .herren__img {
+              border-radius: 5px;
+              max-width: 70%;
+            height: 18rem;
+             }
+             .versand{
+                padding: 2rem 0;
+             }
+             footer {
+                bottom: 0;
+             }
+
+ @media  (min-width:356px) and (max-width:730px)
+ {
+    .herren{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    
+ }
+ @media  (max-width:355px) {
+    .herren{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+  
+    
+    .herren-text__h2{
+        font-size: 1rem;
+    }
+    .paragraph-herren{
+        font-size: 0.6rem;
+        color: gray;
+        text-align: center;
+    }
+    .fa-circle {
+        font-size: 1.2rem;
+                text-align: center;
+        padding: 0;
+    }
+    .button {
+                display: grid;
+                justify-content: center;
+                padding:  0;
+                text-align: center;
+                gap: 0;
+                padding: 0;
+            }
+            .paypal input {
+                width: 7rem;
+            }
+    }
+        </style>     
+         <nav class="nav-bar">    
+           <div class="rigth-icons">
+            <a  class="link rigth-icon" href="#"><i class="fa-regular fa-user"></i></a>
+            <a  class="link rigth-icon" href="#"><i class="fa-regular fa-heart"></i></a>
+            <a  class="link rigth-icon" href="#"> <select>
+                <option>Englisch</option>
+                <option>Deutsch</option>
+                <option>Arabisch</option>
+            </select></a>
+           </div>
+           <div class="nav-logo">
+            <h1 class="nav-h1">Rayan Shop</h1>
+        </div>
+        <div class="left-icons">
+            <a  class="link left-icon" href="#"><select class="select-afters">
+                <option>USD</option>
+                <option>EURO</option>
+            </select></a>
+            <a  class="link left-icon" href="#"><i class="material-icon fa-solid fa-magnifying-glass"></i></a>
+            <a  class="link left-icon" href="#"><i class="material-icons fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+        </nav>
+        <header>
+            <div class="header-nav__liste">
+                <a class="header-nav__list" href="./index.html">Startseite</a>
+                <a class="header-nav__list"  href="#">Damen</a>
+                <a class="header-nav__list" target="_blank" href="./herren.html">Herren</a>
+                <a class="header-nav__list" href="#">Kinder</a>
+            </div>
+        </header>
+        <!-- End header -->
+              <!-- Start Herren   -->
+            <div class="herren">
+                
+            <div class="herren-gruppe">
+                <div class="herren-tshirt icon" id="herren-tshirt">
+               
+                    <img class="herren__img herren-tshirt__img" 
+                        src="./css/imags/t-shirt.jpg"
+                        alt="Bild von einem T-Shirt"
+                    />
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >T-Shirt</h2></a>
+                    
+                    <p class="paragraph-herren herren-tshirt__p" >
+                        <sub class="herren-gruppe__sup">13,99€</sub>
+                    </p>
+                 
+                </div>
+            </div>
+       <div class="herren-wahl">
+        <p class="herren-wahl__p"><i>Männer T-shirt:</i> Höchste Druck- und Materialqualität</p>
+                  <div class="herren-wahl__farbe">
+                    <span class="herren-gruppe__span">Farbe</span> <br>
+                    <a href="#"><i class="fa-solid  fa-circle fa-circle1"></i></a>
+                    <a href="#"><i class="fa-solid  fa-circle fa-circle2"></i></a>
+                    <a href="#"><i class="fa-solid  fa-circle fa-circle3"></i></a>
+                    <a href="#"><i class="fa-solid  fa-circle fa-circle4"></i></a>
+                    <a href="#"><i class="fa-solid  fa-circle fa-circle5"></i></a>
+                  </div>
+            <div class="herren-gross">
+                <p>Größe (DE)</p> 
+                <div class="button">
+                    <button class="herren-gross__button"> S(46)</button>
+                    <button class="herren-gross__button"> M(46)</button>
+                    <button class="herren-gross__button"> L(46)</button>
+                    <button class="herren-gross__button"> XL(46)</button>
+                </div>
+             </div>
+             <div class="paypal">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="ZSXBN3BBTEF2E">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
+             </div>
+             <div class="versand-rucksendung">
+                <div class="versand">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Kostenloser Versand </h3>
+                   <p>	
+                    Kostenloser Standardversand
+                    Voraussichtliche Lieferung am 10/07/2022 - 13/07/2022.
+                </p>
+                </div>
+                <div class="rucksendung">
+                    <b>✅ </b>
+                    <h3> Rücksendung</h3>
+                    <p> Erfahren mehr
+                        Beschreibung</p>
+                </div>
+             </div>
+           </div>
+        </div>
+             <footer>
+                <div class="footer-icons">
+                    <a class="footer-icons__a" target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="footer-icons__a"  target="_blank" href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-icons__a"  target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="footer-liste">
+                    <a class="footer-liste__a" href="#">Impressum</a> <br>
+                    <a class="footer-liste__a" href="#">Kontakt</a> <br>
+                    <a class="footer-liste__a" href="#"> Namestr. 2,66666 Musterstand </a>
+                </div>
+             </footer>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+    </body>
+</html>
