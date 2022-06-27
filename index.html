@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1 ">
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="./produkt.html">
         <script
             src="https://kit.fontawesome.com/20a4bdb3fb.js"
             crossorigin="anonymous"
@@ -42,9 +41,10 @@
         <header>
             <div class="header-nav__liste">
                 <a class="header-nav__list" href="./index.html">Startseite</a>
-                <a class="header-nav__list"  href="#">Damen</a>
-                <a class="header-nav__list" target="_blank" href="./herren.html">Herren</a>
-                <a class="header-nav__list" href="#">Kinder</a>
+                <a class="header-nav__list"  href="./damen.html">Damen</a>
+                <a class="header-nav__list"  href="./herren.html">Herren</a>
+                <a class="header-nav__list" href="./kind.html">Kinder</a>
+                <a class="header-nav__list" href="./kontakt.html">Kontakt</a>
             </div>
         </header>
         <!-- End header -->
@@ -57,21 +57,21 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./css/imags/herrenkleid.jpg" class="d-block w-100" alt="...">
+                    <img src="./css/imags/herrenn.avif" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="carousel-caption__h5">Herren Produkt</h5>
                       <p class="carousel-caption__p"><i>60% Rabatt auf alle sommer Produkte</i></p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./css/imags/kids.jpg" class="d-block w-100" alt="...">
+                    <img src="./css/imags/kids.avif" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="carousel-caption__h5">Kinder Produkt</h5>
                       <p class="carousel-caption__p"><i>50% Rabatt  auf alle Kinder-bluse </i></p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./css/imags/wommen.webp" class="d-block w-100" alt="...">
+                    <img src="./css/imags/womenn.avif" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 class="carousel-caption__h5">Damen Produkt</h5>
                       <p class="carousel-caption__p"><i>70% Rabatt  auf alle Damen-T-shirt</i></p>
@@ -93,7 +93,7 @@
                 <div class="herren-text">
                     <a class="herren-a herren-text__a" href="#"> <h2 class="headline herren-text__h2">Herren Produkte</h2></a>
                     <p class="paragraph-herren herren-text__p">
-                        Unser Herren-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
+                        Unser Herren-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! <br> Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
                        
                     </p>
                 </div>
@@ -110,6 +110,12 @@
                             <sub class="herren-gruppe__sup">13,99€</sub>
                         </p>
                           </a>
+                          <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                     </div>
                          <!-- Hemd -->
                          <div class="herren-tshirt" id="herren-tshirt">
@@ -122,16 +128,28 @@
                     <p class="paragraph-herren herren-tshirt__p" >
                         <sub class="herren-gruppe__sup">18,99€</sub>
                            </a>
+                           <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                         </div>
                  <!-- Unter-hemd -->
                 <div class="herren-tshirt" id="herren-tshirt">
                     <img class="herren__img herren-tshirt__img" 
                         src="./css/imags/unterhemd.jpg" 
-                        alt="Bild von einem Unterhemd"
+                        alt="Bild von einem Unterhemd"Herren-seite
                     />
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hemd</h2></a>
                 <p class="paragraph-herren herren-tshirt__p" >
                     <sub class="herren-gruppe__sup">8,99€</sub>
+                    <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                        </form>
                 </div>
                 <!-- Hose -->
                 <div class="herren-tshirt herren-schuhe" id="herren-schuh">
@@ -144,26 +162,44 @@
         <p class="paragraph-herren herren-tshirt__p" >
             <sub class="herren-gruppe__sup">28,99€</sub>
                </a>
+               <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                </form>
                 </div>
                 <!-- Unter-hose -->
                      <div class="herren-tshirt" id="herre " >
                         <img class="herren__img herren-tshirt__img" 
-                            src="./css/imags/unterhose.jpg"
+                            src="./css/imags/unterhose.webp"
                             alt="Bild von einem Hemd"
                         />
                         <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hose</h2></a>
                     <p class="paragraph-herren herren-tshirt__p" >
                         <sub class="herren-gruppe__sup">6,99€</sub>
+                        <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                     </div>
                     <!-- Jake -->
                     <div class="herren-tshirt" id="herren-tshirt">
                         <img class="herren__img herren-tshirt__img" 
-                            src="./css/imags/jake.jpg"
+                            src="./css/imags/jake.avif"
                             alt="Bild von hemd"
                         />
                         <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Jake</h2></a>
                     <p class="paragraph-herren herren-tshirt__p" >
                         <sub class="herren-gruppe__sup">36,99€</sub>
+                        <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                            </form>
                     </div>
                 <!-- schuh -->
                 <div class="herren-tshirt" id="herren-tshirt">
@@ -174,6 +210,12 @@
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Schuh</h2></a>
                 <p class="paragraph-herren herren-tshirt__p" >
                     <sub class="herren-gruppe__sup">22,99€</sub>
+                    <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                        </form>
                 </div>
                 <!-- Stiefel -->
                 <div class="herren-tshirt" id="herren-tshirt">
@@ -184,6 +226,12 @@
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Stiefel</h2></a>
                 <p class="paragraph-herren herren-tshirt__p" >
                     <sub class="herren-gruppe__sup">27,99€</sub>
+                    <form class="paypal-buttom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                        </form>
                 </div>
             </div>
         </div>
@@ -194,29 +242,29 @@
             <div class="herren-text">
                 <a class="herren-a herren-text__a" href="#"> <h2 class="headline herren-text__h2">Damen Produkte</h2></a>
                 <p class="paragraph-herren herren-text__p">
-                    Unser Damen-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
+                    Unser Damen-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! <br> Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
                    
                 </p>
             </div>
         <div class="herren-gruppe">
               <!-- T-shirt -->
-                <div class="herren-tshirt icon" id="herren-tshirt">
-                      <a href="./herren-tshirt.html">
+                <div class="herren-tshirt icon" >
+                      <a href="./frau-tshirt.html">
                         <img class="herren__img herren-tshirt__img" 
                         src="./css/imags/frau-t-shirt.jpg"
                         alt="Bild von einem T-Shirt"
                     />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >FrauenT-Shirt</h2></a>
+                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Frauen T-Shirt</h2></a>
                     <p class="paragraph-herren herren-tshirt__p" >
                         <sub class="herren-gruppe__sup">13,99€</sub>
                     </p>
                       </a>
                 </div>
                      <!-- Hemd -->
-                     <div class="herren-tshirt" id="herren-tshirt">
-                       <a href="./hemd.html">
+                     <div class="herren-tshirt" >
+                       <a href="./frau-hemd.html">
                         <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-hemd.jpeg" 
+                        src="./css/imags/frau-hemd.avif" 
                         alt="Bild von einem Unterhemd"
                     />
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Hemd</h2></a>
@@ -224,19 +272,19 @@
                     <sub class="herren-gruppe__sup">18,99€</sub>
                        </a>
                     </div>
-             <!-- Unter-hemd -->
-            <div class="herren-tshirt" id="herren-tshirt">
+             <!-- Unter-hemd -->              
+             <div class="herren-tshirt" >
                 <img class="herren__img herren-tshirt__img" 
-                    src="./css/imags/frau-unterhemd.jpeg" 
-                    alt="Bild von einem Unterhemd"
+                    src="./css/imags/frau-unterhemd.avif"
+                    alt="Bild von hemd"
                 />
-                <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hemd</h2></a>
+                <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hemd </h2></a>
             <p class="paragraph-herren herren-tshirt__p" >
-                <sub class="herren-gruppe__sup">8,99€</sub>
+                <sub class="herren-gruppe__sup">22,99€</sub>
             </div>
             <!-- Hose -->
             <div class="herren-tshirt herren-schuhe" id="herren-schuh">
-           <a href="./hose.html">
+                <a href="./frau-hose.html">
             <img class="herren__img herren-schuhe__img"
             src="./css/imags/frau-hose.jpeg"
             alt="Bild von einem Hose"
@@ -249,17 +297,17 @@
             <!-- Unter-hose -->
                  <div class="herren-tshirt" id="herre " >
                     <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-unterhose.jpg"
+                        src="./css/imags/frau-unterhose.avif"
                         alt="Bild von einem Hemd"
                     />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hose</h2></a>
+                <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hose</h2></a>
                 <p class="paragraph-herren herren-tshirt__p" >
                     <sub class="herren-gruppe__sup">6,99€</sub>
                 </div>
                 <!-- Jake -->
-                <div class="herren-tshirt" id="herren-tshirt">
+                <div class="herren-tshirt" >
                     <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-jacke.jpg"
+                        src="./css/imags/frau-jake.avif"
                         alt="Bild von hemd"
                     />
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Jake</h2></a>
@@ -267,7 +315,7 @@
                     <sub class="herren-gruppe__sup">36,99€</sub>
                 </div>
             <!-- schuh -->
-            <div class="herren-tshirt" id="herren-tshirt">
+            <div class="herren-tshirt" >
                 <img class="herren__img herren-tshirt__img" 
                     src="./css/imags/frau-schuh.jpeg"
                     alt="Bild von hemd"
@@ -277,7 +325,7 @@
                 <sub class="herren-gruppe__sup">22,99€</sub>
             </div>
             <!-- Stiefel -->
-            <div class="herren-tshirt" id="herren-tshirt">
+                <div class="herren-tshirt" >
                 <img class="herren__img herren-tshirt__img" 
                     src="./css/imags/fru-stiefel.jpeg"
                     alt="Bild von hemd"
@@ -287,201 +335,124 @@
                 <sub class="herren-gruppe__sup">27,99€</sub>
             </div>
         </div>
+        
+    </div>   
+                   
+<!-- Start Kinder -->
+<div class="herren">
+    <div class="herren-text">
+        <a class="herren-a herren-text__a" href="#"> <h2 class="headline herren-text__h2">Kinder Produkte</h2></a>
+        <p class="paragraph-herren herren-text__p">
+            Unser Kinder-produkt Sortiment umfasst T-shirt, Hosen, Hemden, Schuhe und vieles mehr! <br> Alle unserer Produkte erhalten Sie versandkostenfrei bis vor die Haustür geliefert.
+           
+        </p>
     </div>
-            <!-- <div class=" damen">
-                <div class=" herren-text">
-                    <a class="herren-a herren-text__a" href="#"> <h2 class="headline herren-text__h2">Damen Produkte</h2></a>
-                    <p class="paragraph-herren herren-schuhe__p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                    </p>
-                </div>
-            <div class="herren-gruppe">
-               
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-hemd.jpeg"
-                        alt="Bild von einem Hemd"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Hemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Hemd Es ist so schön
-                    </p>
-                </div>
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-t-shirt.jpg"
-                        alt="Bild von einem T-Shirt"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles T-Shirt</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole T-Shirt Es ist so schön
-                    </p>
-                </div>
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/frau-unterhemd.jpeg" 
-                        alt="Bild von einem Unterhemd"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geile Unterhemd</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Unterhemd Es ist so schön
-                    </p>
-                </div>
-                <div class="damen-tshirt herren-schuhe" id="herren-schuh">
-                    <img class="herren__img herren-schuhe__img"
-                        src="./css/imags/frau-hose.jpeg"
-                        alt="Bild von einem Hose"
-                    />
-                    <a class="herren-a herren-schuhe__a" href="#"><h2 class="headline herren-schuh_h2  " >Toller Hose</h2></a>
-                    <p class="paragraph-herren herren-schuhe__p">Das ist coolen Hose .Es ist so schön</p>
-                </div>
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/fru-stiefel.jpeg"
-                        alt="Bild von einem Stiefel"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Stiefel</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Stiefel.Es ist so schön
-                    </p>
-                </div>
+<div class="herren-gruppe">
+      <!-- T-shirt -->
+        <div class="herren-tshirt icon" >
+              <a href="./frau-tshirt.html">
+                <img class="herren__img herren-tshirt__img" 
+                src="./css/imags/kindtshirt.avif"
+                alt="Bild von einem T-Shirt"
+            />
+            <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Frauen T-Shirt</h2></a>
+            <p class="paragraph-herren herren-tshirt__p" >
+                <sub class="herren-gruppe__sup">13,99€</sub>
+            </p>
+              </a>
+        </div>
+             <!-- Hemd -->
+             <div class="herren-tshirt" >
+               <a href="./frau-hemd.html">
+                <img class="herren__img herren-tshirt__img" 
+                src="./css/imags/kindhemd.avif" 
+                alt="Bild von einem Unterhemd"
+            />
+            <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Hemd</h2></a>
+        <p class="paragraph-herren herren-tshirt__p" >
+            <sub class="herren-gruppe__sup">18,99€</sub>
+               </a>
+            </div>
+     <!-- Unter-hemd -->
+    <div class="herren-tshirt" >
+        <img class="herren__img herren-tshirt__img" 
+            src="./css/imags/kinder-unterhemd.avif" 
+            alt="Bild von einem Unterhemd"
+        />
+        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hemd</h2></a>
+    <p class="paragraph-herren herren-tshirt__p" >
+        <sub class="herren-gruppe__sup">8,99€</sub>
+    </div>
+    <!-- Hose -->
+    <div class="herren-tshirt herren-schuhe" id="herren-schuh">
+   <a href="./frau-hose.html">
+    <img class="herren__img herren-schuhe__img"
+    src="./css/imags/kinder-hose.webp"
+    alt="Bild von einem Hose"
+/>
+<a class="herren-a herren-tshirt__a" href="#"><h2 class="headline herren-schuhe__h2  " > Hose</h2></a>
+<p class="paragraph-herren herren-tshirt__p" >
+<sub class="herren-gruppe__sup">28,99€</sub>
+   </a>
+    </div>
+    <!-- Unter-hose -->
+         <div class="herren-tshirt" id="herre " >
+            <img class="herren__img herren-tshirt__img" 
+                src="./css/imags//kinder-unterhose.jpg"
+                alt="Bild von einem Hemd"
+            />
+            <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Unter-hose</h2></a>
+        <p class="paragraph-herren herren-tshirt__p" >
+            <sub class="herren-gruppe__sup">6,99€</sub>
+        </div>
+        <!-- Jake -->
+        <div class="herren-tshirt" >
+            <img class="herren__img herren-tshirt__img" 
+                src="./css/imags/kinder-jacke.jpg"
+                alt="Bild von hemd"
+            />
+            <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Jake</h2></a>
+        <p class="paragraph-herren herren-tshirt__p" >
+            <sub class="herren-gruppe__sup">36,99€</sub>
+        </div>
+    <!-- schuh -->
+    <div class="herren-tshirt" >
+        <img class="herren__img herren-tshirt__img" 
+            src="./css/imags/kinder-schuh.jpg"
+            alt="Bild von hemd"
+        />
+        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Schuh</h2></a>
+    <p class="paragraph-herren herren-tshirt__p" >
+        <sub class="herren-gruppe__sup">22,99€</sub>
+    </div>
+    <!-- Stiefel -->
+    <div class="herren-tshirt" >
+        <img class="herren__img herren-tshirt__img" 
+            src="./css/imags/kind-stiefl.avif"
+            alt="Bild von hemd"
+        />
+        <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" > Stiefel</h2></a>
+    <p class="paragraph-herren herren-tshirt__p" >
+        <sub class="herren-gruppe__sup">27,99€</sub>
+    </div>
+</div>
+</div>
 
-                <div class="damen-tshirt herren-schuhe" id="herren-schuh">
-                    <img class= "herren__img herren-schuhe__img"
-                        src="./css/imags/frau-schuh.jpeg"
-                        alt="Bild von einem Schuh"
-                    />
-                    <a class="herren-a herren-schuhe__a" href="#"><h2 class="headline herren-schuhe__h2  " >Toller Schuh</h2></a>
-                    <p class="paragraph-herren herren-schuhe__p">Das ist coolen Schuh .Es ist so schön</p>
-                </div>
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/fru-stiefel.jpeg"
-                        alt="Bild von einem Stiefel"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Stiefel</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Stiefel.Es ist so schön
-                    </p>
-                </div>
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/fru-stiefel.jpeg"
-                        alt="Bild von einem Stiefel"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Stiefel</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Stiefel.Es ist so schön
-                    </p>
-                </div>
-              
-                <div class="damen-tshirt" id="herren-tshirt">
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/fru-stiefel.jpeg"
-                        alt="Bild von einem Stiefel"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >Geiles Stiefel</h2></a>
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        Das ist coole Stiefel.Es ist so schön
-                    </p>
-                </div>
-            </div>
-            </div> -->
-            <!-- End Damen -->
-            <!-- <div id="damen">
-                <a href="#"> <h2>Damen Kleid und Schuh</h2></a>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste, dolor. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Maiores, aliquam! Ullam aliquam ipsa modi
-                    enim facilis consequuntur libero unde accusamus?Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit. Quia, fugiat!
-                </p>
-                <div class="frauen-tshirt" id="frauen-tshirt">
-                    <img
-                        width="80"
-                        height="90"
-                        src=" "
-                        alt="Bild von einem frauen-T-Shirt"
-                    />
-                    <a href="#"><h2>Geiles T-Shirt</h2></a>
-                    <p>Das ist coole T-Shirt .</p>
-                    <div id="smart-button-container">
-                        <div style="text-align: center">
-                            <div id="paypal-button-frauen-tshirt"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="frauen-schuh" id="frauen-schuh">
-                    <img
-                        width="80"
-                        height="90"
-                        src="https://www.petra.de/sites/default/files/styles/amp_image_ratio_16x9/public/media/2014/06/frau-mit-schuh-a-16174.jpg?itok=TLvaLo24"
-                        alt="Bild von einem frauen-Schuh"
-                    />
-                    <a href="#"> <h2>Toller Schuh</h2></a>
-                    <p>Das ist coolen chuh .Es ist so schön</p>
-                    <div id="smart-button-container">
-                        <div style="text-align: center">
-                            <div id="paypal-button-frauen-schuh"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="kinder">
-                <a href="#"> <h2>Kinder Kleid und Schuh</h2></a>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste, dolor. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Maiores, aliquam! Ullam aliquam ipsa modi
-                    enim facilis consequuntur libero unde accusamus?Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit. Quia, fugiat!
-                </p>
-                <div class="kinder-tshirt" id="kinder-tshirt">
-                    <img
-                        width="80"
-                        height="90"
-                        src="https://www.bavarian-caps.de/images/product_images/original_images/pumuckl-kinder-tshirt-1.jpg"
-                        alt="Bild von einem Kinder-T-Shirt"
-                    />
-                    <a href="#"> <h2>Geiles T-Shirt</h2></a>
-                    <p>Das ist coole T-Shirt .</p>
-                    <div id="smart-button-container">
-                        <div style="text-align: center">
-                            <div id="paypal-button-frauen-tshirt"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="kinder-schuh" id="kinder-schuh">
-                    <img
-                        width="80"
-                        height="90"
-                        src="https://images.ctfassets.net/znoknm65bujs/11b1aBl39mzNTB03voQses/0dc85ded1a2ea9fff0b2e3935c192d82/affenzahn-barfussschuhe-lauflerner-knit-genug-platz-zum-wachsen.jpg?w=400"
-                        alt="Bild von einem Kinder-Schuh"
-                    />
-                    <a href="#"><h2>Toller Schuh</h2></a>
-                    <p>Das ist coolen Schuh .Es ist so schön</p>
-                    <div id="smart-button-container">
-                        <div style="text-align: center">
-                            <div id="paypal-button-frauen-schuh"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+<!-- End Kinder -->
+               
              <footer>
                 <div class="footer-icons">
-                    <a class="footer-icons__a" target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="footer-icons__a"  target="_blank" href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a class="footer-icons__a"  target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a class="footer-icons__a"  href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="footer-icons__a"   href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-icons__a"   href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="footer-liste">
                     <a class="footer-liste__a" href="#">Impressum</a> <br>
-                    <a class="footer-liste__a" href="#">Kontakt</a> <br>
+                    <a class="footer-liste__a" href="./kontakt.html">Kontakt</a> <br>
                     <a class="footer-liste__a" href="#"> Namestr. 2,66666 Musterstand </a>
                 </div>
              </footer>
              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
-    </body>
+             <script src="https://use.fontawesome.com/cce2885033.js"></script>
+            </body>
 </html>

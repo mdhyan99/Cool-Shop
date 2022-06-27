@@ -16,11 +16,11 @@
         <style>
             body{
                 width: 100%;
-                height: 100%;
+                height: 100vh;
 
             }
             .herren {
-                width: 100;
+                width: 100%;
                 display: grid;
                 grid-template-columns: 2fr 1fr;
                 grid-template-rows: 1fr;
@@ -51,9 +51,9 @@
             }
             .button {
                 display: flex;
-                flex-direction: row;
-                gap: 1rem;
-                padding-bottom: 2rem;            
+                justify-content: center;
+                padding:  0;
+                text-align: center;
            }
             .herren-gross__button:hover{
             border: 2px solid black;
@@ -66,10 +66,10 @@
              .versand{
                 padding: 2rem 0;
              }
-             footer {
+             footer{
                 bottom: 0;
              }
-
+          
  @media  (min-width:356px) and (max-width:730px)
  {
     .herren{
@@ -78,7 +78,9 @@
         align-items: center;
         padding: 0;
     }
-    
+    .herren-gross__button {
+                width: 5rem;
+            }
  }
  @media  (max-width:355px) {
     .herren{
@@ -101,6 +103,7 @@
         font-size: 1.2rem;
                 text-align: center;
         padding: 0;
+
     }
     .button {
                 display: grid;
@@ -114,7 +117,7 @@
                 width: 7rem;
             }
     }
-        </style>     
+        </style>        
          <nav class="nav-bar">    
            <div class="rigth-icons">
             <a  class="link rigth-icon" href="#"><i class="fa-regular fa-user"></i></a>
@@ -153,22 +156,20 @@
             <div class="herren">
                 
             <div class="herren-gruppe">
-                <div class="herren-tshirt icon" id="herren-tshirt">
-               
-                    <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/t-shirt.jpg"
-                        alt="Bild von einem T-Shirt"
-                    />
-                    <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >T-Shirt</h2></a>
-                    
-                    <p class="paragraph-herren herren-tshirt__p" >
-                        <sub class="herren-gruppe__sup">13,99€</sub>
-                    </p>
-                 
-                </div>
+                <div class="herren-tshirt herren-schuhe" id="herren-schuh">
+                    <a href="./frau-hose.html">
+                     <img class="herren__img herren-schuhe__img"
+                     src="./css/imags/frau-hose.jpeg"
+                     alt="Bild von einem Hose"
+                 />
+                 <a class="herren-a herren-tshirt__a" href="#"><h2 class="headline herren-schuhe__h2  " > Hose</h2></a>
+             <p class="paragraph-herren herren-tshirt__p" >
+                 <sub class="herren-gruppe__sup">28,99€</sub>
+                    </a>
+                     </div>
             </div>
        <div class="herren-wahl">
-        <p class="herren-wahl__p"><i>Männer T-shirt:</i> Höchste Druck- und Materialqualität</p>
+        <p class="herren-wahl__p"><i>Hose:</i> Höchste Druck- und Materialqualität</p>
                   <div class="herren-wahl__farbe">
                     <span class="herren-gruppe__span">Farbe</span> <br>
                     <a href="#"><i class="fa-solid  fa-circle fa-circle1"></i></a>
@@ -187,12 +188,12 @@
                 </div>
              </div>
              <div class="paypal">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
-                        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                    </form>
              </div>
              <div class="versand-rucksendung">
                 <div class="versand">

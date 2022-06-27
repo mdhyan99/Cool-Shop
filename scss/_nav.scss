@@ -6,6 +6,9 @@
     padding: 0 1rem;
     background-color: rgba(0, 0, 0, 0.897);
     z-index: 5;
+    width: 100%;
+   position: fixed;
+   top: 0;
 }
 .nav-h1{
     color: coral;
@@ -21,28 +24,3 @@
 .link:hover {
     color:rgb(255, 255, 255) ;
 }
-@media  (max-width:355px) {
-    .nav-bar{
-           display: flex;
-           flex-direction: column;
-       padding: 0;
-    }
-    .rigth-icons .link {
-          font-size: 0.6rem;
-          padding: 0;
-    }
-    }
-    // 356 bis 700
-    @media  (min-width:356px) and (max-width:700px) {
-        .nav-h1{
-            font-size: 1rem;
-            color: rgba(255, 127, 80, 0.596);
-            font-weight: 900;
-            letter-spacing: 1px;
-            }
-            .link {
-                padding: 5px;
-          font-size: 0.6rem;
-                
-          }
-        }

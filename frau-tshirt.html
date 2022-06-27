@@ -17,7 +17,6 @@
             body{
                 width: 100%;
                 height: 100%;
-
             }
             .herren {
                 width: 100;
@@ -36,12 +35,10 @@
             }
             .herren-wahl__p {
                 font-weight: bolder;
-
             }
             .herren-gross{
                 padding: 2rem 0;
             }
-          
             .herren-gross__button {
                 background-color: white;
                 border-radius: 2rem;
@@ -51,17 +48,19 @@
             }
             .button {
                 display: flex;
-                flex-direction: row;
-                gap: 1rem;
-                padding-bottom: 2rem;            
+                justify-content: center;
+                padding:  0;
+                text-align: center;
+                gap: 10px;
+                padding: 0;         
            }
             .herren-gross__button:hover{
-            border: 2px solid black;
+               border: 2px solid black;
             }
             .herren__img {
-              border-radius: 5px;
-              max-width: 50%;
-            height: 18rem;
+               border-radius: 5px;
+               max-width: 50%;
+               height: 18rem;
              }
              .versand{
                 padding: 2rem 0;
@@ -69,38 +68,50 @@
              footer {
                 bottom: 0;
              }
-
  @media  (min-width:356px) and (max-width:730px)
  {
     .herren{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+                margin-top: 3rem;
     }
-    
+    .herren-gross {
+                text-align: center;
+    }
+    .button {
+                display: flex;
+                justify-content: center;
+                padding:  0;
+                text-align: center;
+                gap: 10px;
+                padding: 0;
+            }
  }
  @media  (max-width:355px) {
     .herren{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 0;
+                margin-top: 3rem;
     }
-  
-    
     .herren-text__h2{
-        font-size: 1rem;
+               font-size: 1rem;
     }
     .paragraph-herren{
-        font-size: 0.6rem;
-        color: gray;
-        text-align: center;
+               font-size: 0.6rem;
+               color: gray;
+               text-align: center;
     }
     .fa-circle {
-        font-size: 1.2rem;
-                text-align: center;
-        padding: 0;
+               font-size: 1.2rem;
+               text-align: center;
+               padding: 0;
+    }
+    .herren-gross {
+               text-align: center;
     }
     .button {
                 display: grid;
@@ -110,7 +121,7 @@
                 gap: 0;
                 padding: 0;
             }
-            .paypal input {
+    .paypal input {
                 width: 7rem;
             }
     }
@@ -156,7 +167,7 @@
                 <div class="herren-tshirt icon" id="herren-tshirt">
                
                     <img class="herren__img herren-tshirt__img" 
-                        src="./css/imags/t-shirt.jpg"
+                        src="./css/imags/frau-t-shirt.jpg"
                         alt="Bild von einem T-Shirt"
                     />
                     <a class="herren-a herren-tshirt__a"  href="#"><h2 class="headline  herren-tshirt__h2" >T-Shirt</h2></a>
@@ -168,7 +179,7 @@
                 </div>
             </div>
        <div class="herren-wahl">
-        <p class="herren-wahl__p"><i>Männer T-shirt:</i> Höchste Druck- und Materialqualität</p>
+        <p class="herren-wahl__p"><i>T-shirt:</i> Höchste Druck- und Materialqualität</p>
                   <div class="herren-wahl__farbe">
                     <span class="herren-gruppe__span">Farbe</span> <br>
                     <a href="#"><i class="fa-solid  fa-circle fa-circle1"></i></a>
@@ -176,7 +187,8 @@
                     <a href="#"><i class="fa-solid  fa-circle fa-circle3"></i></a>
                     <a href="#"><i class="fa-solid  fa-circle fa-circle4"></i></a>
                     <a href="#"><i class="fa-solid  fa-circle fa-circle5"></i></a>
-                  </div>
+        top: 5rem;
+    </div>
             <div class="herren-gross">
                 <p>Größe (DE)</p> 
                 <div class="button">
@@ -187,12 +199,12 @@
                 </div>
              </div>
              <div class="paypal">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
-                        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="JXVSGADX4N7JA">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                    </form>
              </div>
              <div class="versand-rucksendung">
                 <div class="versand">
@@ -214,9 +226,9 @@
         </div>
              <footer>
                 <div class="footer-icons">
-                    <a class="footer-icons__a"  href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="footer-icons__a"   href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-                    <a class="footer-icons__a"   href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="footer-icons__a" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="footer-icons__a"  href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-icons__a"  href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="footer-liste">
                     <a class="footer-liste__a" href="#">Impressum</a> <br>

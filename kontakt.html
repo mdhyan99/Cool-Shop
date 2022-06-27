@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <link rel="stylesheet" href="css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/20a4bdb3fb.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+        <title>Rayan shop</title>
+    </head>
+    <style>
+        body {
+            width: 100%;
+         text-align: center;
+        }
+        form h1 {
+            color: coral;
+        }
+        form span {
+            color: blueviolet;
+        }
+         ul li {
+            list-style-type: none;
+            font-size: 1.8rem;
+            color: white;
+         }
+        form {
+            height: 200vh;
+            width: 100%;
+           background-color: darkkhaki;
+           padding: 50px;
+        }
+        form label {
+            font-size: 1.4rem;
+        }
+        form input ,textarea{
+            width: 400px;
+        }
+        .submit {
+            width: 130px;
+        }
+
+        @media  (min-width:401px) and (max-width:730px)
+ {
+    form {
+            height: 100vh;
+            width: 100%;
+           background-color: darkkhaki;
+           padding: 50px;
+        }
+        form input ,textarea{
+            width: 300px;
+        }
+        .submit {
+            width: 80px;
+        }
+ }
+ @media  (max-width:400px) {
+    form {
+            height: 100vh;
+            width: 100%;
+           background-color: darkkhaki;
+           padding: 10px;
+        }
+        form input ,textarea{
+            width: 120px;
+        }
+        .submit {
+            width: 50px;
+        }
+    }
+        
+    </style>
+    <body>
+        <nav class="nav-bar">
+           <div class="rigth-icons">
+            <a  class="link rigth-icon" href="#"><i class="fa-regular fa-user"></i></a>
+            <a  class="link rigth-icon" href="#"><i class="fa-regular fa-heart"></i></a>
+            <a  class="link rigth-icon" href="#"> <select>
+                <option>Englisch</option>
+                <option>Deutsch</option>
+                <option>Arabisch</option>
+            </select></a>
+           </div>
+           <div class="nav-logo">
+            <h1 class="nav-h1">Rayan Shop</h1>
+        </div>
+        <div class="left-icons">
+            <a  class="link left-icon" href="#"><select class="select-afters">
+                <option>USD</option>
+                <option>EURO</option>
+            </select></a>
+            <a  class="link left-icon" href="#"><i class="material-icon fa-solid fa-magnifying-glass"></i></a>
+            <a  class="link left-icon" href="#"><i class="material-icons fa-solid fa-cart-shopping"></i></a>
+
+        </div>
+        </nav>
+        <header>
+            <div class="header-nav__liste">
+                <a class="header-nav__list" href="./index.html">Startseite</a>
+                <a class="header-nav__list" href="./damen.html">Damen</a>
+                <a class="header-nav__list" href="./herren.html">Herren</a>
+                <a class="header-nav__list" href="./kind.html">Kinder</a>
+                <a class="header-nav__list" href="./kontakt.html">Kontakt</a>
+
+            </div>
+        </header>
+        <!-- End header -->
+        <!-- Formular -->
+        <form
+        action="https://formspree.io/f/xrgjrdzo"
+        method="post"
+    >
+    <h1>Sie können uns auf folgende Weise kontaktieren:</h1>
+              <ul>
+                <li>Unter der folgenden Nummer anrufen <br> <span>004917776665339</span></li>
+                <li>Oder per E-Mail Unter der folgenden: <br> <a href="#">jakksjsj@gmail.com</a></li>
+                <li>Oder indem Sie das Folgende Formular ausfüllen:</li>
+              </ul>
+        <label>
+            Vorname <br>
+            <input
+                name="Vorname"
+                type="text"
+                placeholder="Vorname eingeben"
+                required
+            /> </label
+        ><br />
+        <label>
+            Nachname <br>
+            <input
+                name="Nachname"
+                type="text"
+                placeholder="Nachname eingeben"
+                required
+            />
+        </label>
+        <br /><br>
+
+        <label for="">Alter 
+            <br>
+            <input type="number" name="alter" min="18" max="100" step="1"  placeholder="Alt"/> </label>
+        <br />
+        <br />
+        <label for="">
+            Dein Nachricht<br />
+            <textarea
+                name="Nachricht"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Dein Nachricht"
+            ></textarea>
+        </label>
+        <br>
+        <br>
+        <div>
+            <input class="submit" type="submit" value="Senden" />
+        </div>
+    </form>
+        <!-- footer -->
+  
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ 
+    </body>
+</html>
