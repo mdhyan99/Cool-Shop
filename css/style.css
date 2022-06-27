@@ -22,7 +22,7 @@ header {
 .header-nav__list {
   color: rgba(0, 0, 0, 0.856);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 30px;
 }
 
@@ -52,7 +52,7 @@ section img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 3rem;
+  padding: 1.5rem;
   background-color: #eee;
 }
 
@@ -74,7 +74,7 @@ section img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .herren__img {
@@ -284,6 +284,9 @@ footer {
   section img {
     object-fit: cover;
   }
+  .herren {
+    padding: 0.3rem;
+  }
   .paypal-buttom input {
     padding: 1rem 0;
     max-width: 100px;
@@ -291,6 +294,7 @@ footer {
   .herren-gruppe {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
   }
 }
 

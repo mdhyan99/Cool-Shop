@@ -96,6 +96,9 @@ section img{
     }
 
     // herren
+    .herren{
+        padding: 0.3rem;
+    }
     .paypal-buttom input {
         padding: 1rem 0;
         max-width: 100px;
@@ -103,8 +106,7 @@ section img{
     .herren-gruppe {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-
-    
+       gap:0.7rem;
     }  
 }
 

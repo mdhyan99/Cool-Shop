@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 .herren-text {
     padding: 2rem 0;
@@ -29,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    gap:2rem ;
+    gap:1rem ;
 }
 .herren__img {
      border-radius: 5PX;
@@ -65,21 +65,26 @@ footer{
 .herren-gruppe {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-    
+        padding: 0;
+        gap: 0.7rem;
+
     }  
+ 
+    .herren{
+        padding: 0 0.5rem;
+        gap: 0.7rem;
+    }
+.
  }
  @media  (max-width:355px) {
     .herren{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
+        padding: 0.5rem;
     }
     .herren-gruppe {
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
+        padding: 0;
     } 
     .herren-text {
         width: 100%;
