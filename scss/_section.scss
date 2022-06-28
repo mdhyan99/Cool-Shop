@@ -1,6 +1,15 @@
 section img{
     width: 80%;
-    max-height: 700px;
+    max-height: 600px;
     object-fit: cover;
     object-position: center;
+}
+.carousel-caption__h5 {
+    font-size: 3rem;
+    color: rgba(135, 101, 230, 0.993);
+    letter-spacing: -2px;
+}
+.carousel-caption__p {
+    font-size: 1.7rem;
+    color:rgba(255, 0, 0, 0.747) ;
 }
